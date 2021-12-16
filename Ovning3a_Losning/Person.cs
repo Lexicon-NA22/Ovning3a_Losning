@@ -52,16 +52,20 @@ namespace Ovning3a_Losning
                 }
             }
 
+
+
             public Person(string fname, string lname)
             {
                 firstName = fname;
                 lastName = lname;
             }
 
-            public void PrintPersonInfo()
+            public string PrintPersonInfo()
             {
-                Console.WriteLine($"Name: {FirstName} {LastName}, Age: {Age}.");
+                return $"Name: {FirstName} {LastName}, Age: {Age}.";
             }
+
+
 
 
         

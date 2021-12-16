@@ -32,7 +32,7 @@ namespace Ovning3a_Losning
         {
             foreach (var person in persons)
             {
-                person.PrintPersonInfo();
+                Console.WriteLine(person.PrintPersonInfo());
             }
         }
 
